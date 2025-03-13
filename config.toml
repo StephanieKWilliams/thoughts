@@ -1,0 +1,62 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Code writes"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Stephanie K Williams"
+  description = "In solitude, where we are least alone."
+  github = "StephanieKWilliams"
+  linkedin = "https://www.linkedin.com/in/stephanie-williams-333b75278/"
+  email = "williamstephaniek@icloud.com"
+  url = "https://www.linkedin.com/in/stephanie-williams-333b75278/"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  avatar = "https://res.cloudinary.com/dsnzpqfvd/image/upload/v1741697314/WhatsApp_Image_2025-03-11_at_15.48.15_vlwbbw.jpg"
+  headerIcon = "https://res.cloudinary.com/dsnzpqfvd/image/upload/v1741697314/WhatsApp_Image_2025-03-11_at_15.48.15_vlwbbw.jpg"
+  location = "Kenya"
+  enableGitalk = false
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+  enableSearch = true
+
+  [params.gitalk]
+    clientID = "Ov23liC3EreyjsIFdlL8"
+    clientSecret = "a82cc287c940fe64f6b5ffb86bd143da2d924876"
+    repo = "github.com/StephanieKWilliams/myblog"
+    owner = "StephanieKWilliams"
+    admin = "StephanieKWilliams"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/StephanieKWilliams"
+  [[params.links]]
+    title = "Link2"
+    href = "https://github.com/StephanieKWilliams"
+    icon = "https://res.cloudinary.com/dsnzpqfvd/image/upload/v1741697314/WhatsApp_Image_2025-03-11_at_15.48.15_vlwbbw.jpg"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
