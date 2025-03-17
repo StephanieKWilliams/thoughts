@@ -20,14 +20,14 @@ pygmentsUseClasses = true
   avatar = "https://res.cloudinary.com/dsnzpqfvd/image/upload/v1741697314/WhatsApp_Image_2025-03-11_at_15.48.15_vlwbbw.jpg"
   headerIcon = "https://res.cloudinary.com/dsnzpqfvd/image/upload/v1741697314/WhatsApp_Image_2025-03-11_at_15.48.15_vlwbbw.jpg"
   location = "Kenya"
-  enableGitalk = false
   custom_css = ["css/custom.css"]
   custom_js = ["js/custom.js"]
   enableSearch = true
 
   [params.gitalk]
+    enableGitalk = true
     clientID = "Ov23liC3EreyjsIFdlL8"
-    clientSecret = "a82cc287c940fe64f6b5ffb86bd143da2d924876"
+    clientSecret = "6fa55d6db301b531e755079ab6f20d2eaba62f89"
     repo = "github.com/StephanieKWilliams/myblog"
     owner = "StephanieKWilliams"
     admin = "StephanieKWilliams"
@@ -36,7 +36,7 @@ pygmentsUseClasses = true
     perPage = 15
     pagerDirection = "last"
     createIssueManually = true
-    distractionFreeMode = false
+    
 
   [[params.links]]
     title = "Link"
